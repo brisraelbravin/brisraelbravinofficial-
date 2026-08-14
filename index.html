@@ -6,41 +6,45 @@
 <meta name="description" content="Brisrael Bravin — Kenyan creative exploring music, digital design, photography, video editing and technology.">
 <title>Brisrael Bravin | Kenyan Creativity. Global Vision.</title>
 <style>
-:root{--bg:#080912;--card:#111425;--text:#f7f7fb;--muted:#b7bbcf;--accent:#8b5cf6;--accent2:#22d3ee;--line:#242942}
+:root{--bg:#070813;--card:#111426;--text:#f7f7fb;--muted:#b9bdd0;--accent:#8b5cf6;--cyan:#22d3ee;--line:#272b45}
 *{box-sizing:border-box;scroll-behavior:smooth}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:radial-gradient(circle at 20% 10%,#24164f 0,transparent 35%),radial-gradient(circle at 80% 30%,#063c4a 0,transparent 30%),var(--bg);color:var(--text);line-height:1.6}
-nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(8,9,18,.78);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:14px 6%}
-nav a{color:#fff;text-decoration:none;margin:0 10px;font-size:.9rem}
-.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:100px 20px 60px}
-.badge{display:inline-block;padding:7px 14px;border:1px solid #6d5acb;border-radius:99px;color:#d9d3ff;background:#17132d}
-h1{font-size:clamp(3.2rem,12vw,7rem);line-height:.9;margin:25px 0 18px;background:linear-gradient(90deg,#fff,#a78bfa,#67e8f9);-webkit-background-clip:text;color:transparent}
-.hero p{max-width:720px;margin:auto;color:var(--muted);font-size:1.15rem}
-.buttons{margin-top:30px}
-.btn{display:inline-block;margin:6px;padding:12px 20px;border-radius:12px;text-decoration:none;font-weight:700}
-.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:white}
-.secondary{border:1px solid var(--line);color:white;background:#111425}
-section{max-width:1100px;margin:auto;padding:85px 20px}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:radial-gradient(circle at 15% 8%,#2c1558 0,transparent 32%),radial-gradient(circle at 85% 25%,#064a55 0,transparent 30%),var(--bg);color:var(--text);line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(7,8,19,.8);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:14px 5%;text-align:center;white-space:nowrap;overflow:auto}
+nav a{color:#fff;text-decoration:none;margin:0 9px;font-size:.9rem}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:105px 20px 65px}
+.profile{width:155px;height:155px;border-radius:50%;object-fit:cover;border:5px solid #fff;box-shadow:0 0 0 5px rgba(139,92,246,.35),0 18px 60px rgba(0,0,0,.45)}
+.badge{display:inline-block;margin-top:24px;padding:7px 14px;border:1px solid #6d5acb;border-radius:99px;color:#ddd7ff;background:#17132d}
+h1{font-size:clamp(3rem,12vw,7rem);line-height:.9;margin:22px 0 18px;background:linear-gradient(90deg,#fff,#b79cff,#67e8f9);-webkit-background-clip:text;color:transparent}
+.hero p{max-width:760px;margin:auto;color:var(--muted);font-size:1.1rem}
+.buttons{margin-top:28px}
+.btn{display:inline-block;margin:6px;padding:12px 19px;border-radius:12px;text-decoration:none;font-weight:700}
+.primary{background:linear-gradient(90deg,var(--accent),var(--cyan));color:#fff}
+.secondary{border:1px solid var(--line);color:#fff;background:#111426}
+section{max-width:1100px;margin:auto;padding:80px 20px}
 .section-title{font-size:2.4rem;margin-bottom:10px}
-.lead{color:var(--muted);max-width:780px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:30px}
-.card{background:rgba(17,20,37,.78);border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 12px 35px rgba(0,0,0,.2)}
-.card h3{margin-top:0}
-.icon{font-size:2rem}
-.quote{border-left:4px solid var(--accent2);padding:20px 25px;margin-top:35px;background:#0d1020;border-radius:0 16px 16px 0;color:#e9e9f5;font-size:1.15rem}
-.timeline{border-left:2px solid #5044a5;padding-left:25px}
-.timeline div{margin:25px 0}
+.lead{color:var(--muted);max-width:800px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:28px}
+.card{background:rgba(17,20,38,.82);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 14px 38px rgba(0,0,0,.2)}
+.card h3{margin-top:0}.icon{font-size:2rem}
+.quote{border-left:4px solid var(--cyan);padding:18px 22px;margin-top:30px;background:#0d1020;border-radius:0 15px 15px 0}
+.social{font-size:1rem}
+.social span{opacity:.75;font-size:.85rem}
+.music-card{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.music-art{width:105px;height:105px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,#8b5cf6,#22d3ee);font-size:2.4rem}
 footer{text-align:center;border-top:1px solid var(--line);padding:40px 20px;color:var(--muted)}
-.small{font-size:.9rem}
-@media(max-width:600px){nav{text-align:center;overflow:auto;white-space:nowrap}nav a{margin:0 6px}.hero{padding-top:120px}}
+.small{font-size:.88rem}
+@media(max-width:600px){.profile{width:135px;height:135px}h1{font-size:3.2rem}}
 </style>
 </head>
 <body>
 <nav>
-<a href="#about">About</a><a href="#work">Work</a><a href="#story">Story</a><a href="#vision">Vision</a><a href="#contact">Contact</a>
+<a href="#about">About</a><a href="#work">Work</a><a href="#music">Music</a><a href="#story">Story</a><a href="#vision">Vision</a><a href="#contact">Contact</a>
 </nav>
 
 <header class="hero">
 <div>
+<img class="profile" src="profile.jpg" alt="Brisrael Bravin">
+<br>
 <span class="badge">🇰🇪 KENYAN CREATIVE • GLOBAL VISION 🌍</span>
 <h1>BRISRAEL<br>BRAVIN</h1>
 <p>Music • Digital Design • Photography • Video Editing • Technology</p>
@@ -67,19 +71,27 @@ footer{text-align:center;border-top:1px solid var(--line);padding:40px 20px;colo
 </div>
 </section>
 
+<section id="music">
+<h2 class="section-title">🎵 Music</h2>
+<p class="lead">A growing collection of music ideas and creative projects by Brisrael Bravin.</p>
+<div class="card music-card">
+<div class="music-art">🎧</div>
+<div>
+<h3>KENYA YETU</h3>
+<p>A Kenyan-themed creative music project celebrating identity, creativity and the vision of reaching audiences beyond borders.</p>
+<span class="small">More releases and listening links can be added here.</span>
+</div>
+</div>
+</section>
+
 <section id="story">
 <h2 class="section-title">The Story</h2>
-<div class="timeline">
-<div><h3>🌱 The Beginning</h3><p>Brisrael's journey grew from curiosity about creativity, technology and media.</p></div>
-<div><h3>🎨 Building a Creative Identity</h3><p>Music, photography, editing and graphic design became different ways to express ideas and develop a recognizable style.</p></div>
-<div><h3>💡 Learning Through Projects</h3><p>Technology and ICT projects added another dimension to the journey, combining creativity with problem solving.</p></div>
-<div><h3>🌍 Looking Beyond Borders</h3><p>The long-term ambition is to grow a creative brand that connects Kenyan creativity with audiences around the world.</p></div>
-</div>
+<p class="lead">Brisrael's journey grew from curiosity about creativity, technology and media. Music, photography, editing, graphic design and technology became different ways to express ideas and build a unique creative identity.</p>
+<div class="quote">Every song, design, photograph, video and technology project is another chapter.</div>
 </section>
 
 <section id="vision">
 <h2 class="section-title">Global Vision</h2>
-<p class="lead">This is a journey in progress. Every song, design, photograph, video and technology project is another chapter.</p>
 <div class="grid">
 <div class="card"><h3>CREATE</h3><p>Turn ideas into meaningful creative work.</p></div>
 <div class="card"><h3>INSPIRE</h3><p>Show other young creators that their ideas can matter.</p></div>
@@ -89,20 +101,25 @@ footer{text-align:center;border-top:1px solid var(--line);padding:40px 20px;colo
 </section>
 
 <section id="contact">
-<h2 class="section-title">Connect</h2>
-<p class="lead">Add your official social-media links below before publishing the site.</p>
-<div class="buttons">
-<a class="btn primary" href="#" aria-label="TikTok">TikTok</a>
-<a class="btn secondary" href="#" aria-label="Instagram">Instagram</a>
-<a class="btn secondary" href="#" aria-label="YouTube">YouTube</a>
-<a class="btn secondary" href="#" aria-label="Facebook">Facebook</a>
+<h2 class="section-title">Connect With Brisrael</h2>
+<p class="lead">Follow the official social profiles and get in touch for creative enquiries.</p>
+<div class="grid">
+<div class="card social"><h3>🎵 TikTok</h3><p>@BRISRAELBRAVIN16</p><a class="btn primary" href="https://www.tiktok.com/@BRISRAELBRAVIN16">Open TikTok</a></div>
+<div class="card social"><h3>📸 Instagram</h3><p>@BRISRAELBRAVIN</p><a class="btn primary" href="https://www.instagram.com/BRISRAELBRAVIN/">Open Instagram</a></div>
+<div class="card social"><h3>▶️ YouTube</h3><p>BRISRAEL BRAVIN</p><a class="btn primary" href="https://www.youtube.com/@BRISRAELBRAVIN">Open YouTube</a></div>
+<div class="card social"><h3>📘 Facebook</h3><p>BRISRAEL BRAVIN</p><a class="btn primary" href="https://www.facebook.com/BRISRAELBRAVIN/">Open Facebook</a></div>
 </div>
-<p class="small">Tip: replace each # with your real profile URL.</p>
+<div class="card" style="margin-top:20px;text-align:center">
+<h3>📞 Call or WhatsApp</h3><p style="font-size:1.25rem"><strong>0701646675</strong></p>
+<a class="btn primary" href="tel:+254701646675">Call Me</a>
+<a class="btn secondary" href="https://wa.me/254701646675">WhatsApp Me</a>
+</div>
+<p class="small">If any social username is different on the platform, replace its button link in <code>index.html</code>.</p>
 </section>
 
 <footer>
 <strong>BRISRAEL BRAVIN</strong><br>
-Kenyan Creativity. Global Vision. 🇰🇪🌍<br><br>
+Kenyan Creativity. Global Vision. 🇰🇪🌍<br>
 © 2026 BRISRAEL BRAVIN PRODUCTION
 </footer>
 </body>
